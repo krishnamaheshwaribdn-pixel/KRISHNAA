@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShopEasy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6fb;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      border: 2px solid #333;
+      width: 90%;
+      margin: 40px auto;
+      background-color: #f4f6fb;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .card {
+      background-color: white;
+      width: 300px;
+      margin: 40px auto;
+      border-radius: 8px;
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .product-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      background-color: #00a35c;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .card-content h3 {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .card-content p {
+      font-size: 13px;
+      color: #555;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+
+    .price .current {
+      color: #009900;
+      font-weight: bold;
+    }
+
+    .price .old {
+      color: #999;
+      text-decoration: line-through;
+    }
+
+    button {
+   
+      width: 100%;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    button:hover {
+      background-color: #0056cc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>ShopEasy</h1>
+    </header>
+
+    <div class="card">
+        <img class="product-image" src="https://media.istockphoto.com/id/1206211040/photo/plain-white-t-shirt-hanging-on-wall.jpg?s=1024x1024&w=is&k=20&c=MXXPvm4GtNVD1YKSF5j0LEhCNjXQd-rVliWKCf6Lei8=" alt="Product" height="100" width="150"
+        > 
+      <div class="card-content">
+        <h3>Classic Cotton T-Shirt</h3>
+        <p>Soft, breathable cotton. Regular fit. Available in multiple colors.</p>
+        <div class="price">
+          <span class="current">₹799</span>
+          <span class="old">₹1,199</span>
+        </div>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
